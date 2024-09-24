@@ -1,13 +1,42 @@
+html
+{
+  height: 100%;
+}
+
+
 body
 {
     display: block;
-    margin: 8px;
-    background-image: url("/image/laugh.png");
+    margin: 0px;
+    height: 100%;
+  /*  background-image: url("/image/laugh.png");
     background-repeat:no-repeat;
     background-attachment: fixed; 
-    background-position: 0% 45%;
+    background-position: 0% 45%;   */
 }
 
-body:focus {
+body:focus 
+{
     outline: none;
-  }
+}
+
+
+img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.container
+{
+  align-content: center;
+  padding: 0px;
+}
+
+.fill-row
+{
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+
