@@ -1,5 +1,5 @@
 {
-  "name": "joke-app",
+  "name": "joke_app",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.0"
   }
 }
