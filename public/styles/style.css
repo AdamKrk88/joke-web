@@ -2,6 +2,10 @@ body
 {
     display: block;
     margin: 8px;
+    background-image: url("/image/laugh.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    background-position: 0% 45%;
 }
 
 body:focus {
