@@ -9,6 +9,7 @@ body
     display: block;
     margin: 0px;
     height: 100%;
+    background-color: beige;
   /*  background-image: url("/image/laugh.png");
     background-repeat:no-repeat;
     background-attachment: fixed; 
@@ -39,4 +40,33 @@ img
   flex-grow: 1;
 }
 
+.custom-btn,
+.custom-btn:hover,
+.custom-btn:focus,
+.btn:first-child:active
+{
+	background-color: #ffa64d;
+	border-color: #ffa64d;
+}
 
+.bg-yellow
+{
+  background-color: #fff0b3;
+}
+
+.letter-spacing
+{
+  letter-spacing: 50px;
+  color: #1a75ff;
+}
+
+.min-height-100-percentage
+{
+  min-height: 100%;
+}
+
+a
+{
+  text-decoration: none;
+  color: #9494b8
+}
