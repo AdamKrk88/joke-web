@@ -10,11 +10,8 @@ body
     margin: 0px;
     height: 100%;
     background-color: beige;
-  /*  background-image: url("/image/laugh.png");
-    background-repeat:no-repeat;
-    background-attachment: fixed; 
-    background-position: 0% 45%;   */
 }
+
 
 body:focus 
 {
@@ -22,17 +19,12 @@ body:focus
 }
 
 
-img
-{
-  width: 100%;
-  height: 100%;
-}
-
 .container
 {
   align-content: center;
   padding: 0px;
 }
+
 
 .fill-row
 {
@@ -40,33 +32,65 @@ img
   flex-grow: 1;
 }
 
+
 .custom-btn,
-.custom-btn:hover,
-.custom-btn:focus,
-.btn:first-child:active
+.custom-btn:focus
 {
 	background-color: #ffa64d;
 	border-color: #ffa64d;
 }
+
+
+.custom-btn:hover
+{
+  background-color: #ffa64d;
+  border-color: #ffa64d;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(253, 125, 0, 1);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(253, 125, 0, 1);
+  box-shadow: 0px 0px 4px 1px rgba(253, 125, 0, 1);
+}
+
+
+.btn:first-child:active
+{
+  background-color: #ff8000;
+  border-color: #ff8000;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(253, 125, 0, 1);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(253, 125, 0, 1);
+  box-shadow: 0px 0px 4px 1px rgba(253, 125, 0, 1);
+}
+
 
 .bg-yellow
 {
   background-color: #fff0b3;
 }
 
+
 .letter-spacing
 {
   letter-spacing: 50px;
+  text-indent: 50px;
   color: #1a75ff;
 }
+
 
 .min-height-100-percentage
 {
   min-height: 100%;
 }
 
+
 a
 {
   text-decoration: none;
-  color: #9494b8
+  color: #9494b8;
+  outline: none; 
+}
+
+
+p
+{
+  font-style: italic;
+  overflow-wrap: break-word;  
 }
